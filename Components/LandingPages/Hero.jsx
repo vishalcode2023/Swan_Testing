@@ -35,7 +35,7 @@ const Hero = () => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, ease: "easeOut" }}
-        className="lg:w-[75%]  md:w-[85%] md:h-[80vh] min-h-[400px] relative md:top-20 top-48 m-auto flex flex-wrap items-center"
+        className="md:w-[85%] md:h-[80vh] min-h-[400px] relative md:top-20 top-48 m-auto flex flex-wrap items-center"
       >
         {/* Left Section */}
         <div className="md:w-[50%] w-[100%] md:pl-10 px-5">
@@ -46,8 +46,8 @@ const Hero = () => {
               transition={{ duration: 1, delay: 0.3 }}
               className="font-bold text-3xl sm:text-3xl md:text-5xl"
             >
-              Grain by grain{" "}
-              <span className="text-[#a2e194]">Perfection</span> Redefined.
+              Grain by grain <span className="text-[#a2e194]">Perfection</span>{" "}
+              Redefined.
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 100 }}
@@ -59,17 +59,17 @@ const Hero = () => {
               efficiency and accuracy.
             </motion.p>
 
-            {/* Wrap the button inside a div to prevent glitches */}
             <motion.div
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 1 }}
               viewport={{ once: true }} // Prevents re-rendering glitch
+              className="flex  items-center gap-3 md:gap-5 mt-4 md:py-10 whitespace-nowrap"
             >
               <motion.button
                 whileHover={{ scale: 1.1 }}
                 transition={{ duration: 0.2, ease: "easeInOut" }}
-                className="bg-[#a2e194] my-5 py-3 px-5 rounded-2xl text-black font-semibold transition"
+                className="bg-[#a2e194] py-3 px-5 rounded-2xl text-black font-semibold transition"
               >
                 Get in Touch
               </motion.button>
@@ -77,7 +77,7 @@ const Hero = () => {
               <motion.button
                 whileHover={{ scale: 1.1 }}
                 transition={{ duration: 0.2, ease: "easeInOut" }}
-                className="bg-[#a2e194] my-5 mx-2 md:mx-5 py-3 px-5 rounded-2xl text-black font-semibold transition"
+                className="bg-[#a2e194] py-3 px-5 rounded-2xl text-black font-semibold transition"
               >
                 Download brochure
               </motion.button>

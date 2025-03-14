@@ -832,13 +832,13 @@ const ChatBot = () => {
 
               {/* Chat input */}
               <div className="p-5 relative -left-2  text-black">
-                <form onSubmit={handleSubmit} className="flex space-x-2">
+                <form onSubmit={handleSubmit} className="flex">
                   <Input
                     value={inputValue}
                     onChange={handleInputChange}
                     onKeyDown={handleKeyDown}
                     placeholder={getTranslatedText("typeMessage")}
-                    className=" bg-gray-200 border border-green-400  text-black placeholder-gray-400 ]"
+                    className=" bg-gray-200 border border-green-400 mx-2 w-[70%] md:w-[90%]  text-black placeholder-gray-400 ]"
                     disabled={isProcessing}
                   />
                   <Button
