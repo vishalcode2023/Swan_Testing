@@ -21,14 +21,14 @@ const products = [
     name: "Swan RGB C1 (Conveyor Type)",
     description: "Premium sorting technology for precision sorting.",
     image: "/img2.jpeg",
-    video: "/video1.mp4",
+    video: "/Video1.mp4",
   },
   {
     id: 3,
     name: "Swan Sundarshan",
     description: "Enhance sorting efficiency with AI-powered technology.",
     image: "/img3.jpeg",
-    video: "/video1.mp4",
+    video: "/Video1.mp4",
   },
   {
     id: 4,
@@ -36,7 +36,7 @@ const products = [
     description:
       "We are well known as the reputed organization in this field of operation, engaged in manufacturing wide array of excellent quality Dal color Sorter Machine.",
     image: "/img4.jpeg",
-    video: "/video1.mp4",
+    video: "/Video1.mp4",
   },
 ];
 
